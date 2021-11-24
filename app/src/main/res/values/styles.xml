@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--  Font style.  -->
+    <!--  Base text style  -->
     <style name="Black">
         <item name="fontFamily">@font/pretendard_black</item>
         <item name="android:includeFontPadding">false</item>
@@ -26,41 +26,58 @@
         <item name="android:includeFontPadding">false</item>
     </style>
 
-    <!--  Edit text style -->
-    <style name="EditText"
-        parent="Widget.AppCompat.EditText" >
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">@color/pinkish_grey</item>
-        <item name="fontFamily">@font/pretendard_regular</item>
-        <item name="android:includeFontPadding">false</item>
-    </style>
-    <style name="EnterEditText"
-        parent="Widget.AppCompat.EditText" >
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">@color/text_3</item>
-        <item name="fontFamily">@font/pretendard_regular</item>
-        <item name="android:includeFontPadding">false</item>
-    </style>
-
     <!--  Title text style -->
-    <style name="TitleText">
+    <style name="Bold.TitleText">
         <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/text_3</item>
-        <item name="fontFamily">@font/pretendard_bold</item>
-        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/text_4</item>
     </style>
-    <style name="SubtitleText">
+    <style name="Medium.SubtitleText">
         <item name="android:textSize">11sp</item>
         <item name="android:textColor">@color/purple_2</item>
-        <item name="fontFamily">@font/pretendard_medium</item>
-        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="Regular.SubtitleText">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/text_2</item>
+        <item name="lineHeight">18dp</item>
+        <item name="android:textAlignment">center</item>
     </style>
 
-    <!--  Button text style -->
-    <style name="WhiteButtonText">
+    <!--  Item text style  -->
+    <style name="Regular.ItemText">
         <item name="android:textSize">14sp</item>
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/text_4</item>
+    </style>
+
+    <!--  Button style  -->
+    <style name="BaseButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
         <item name="fontFamily">@font/pretendard_bold</item>
         <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/selector_radius_10_button</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+    <style name="BaseButton.EditText">
+        <item name="fontFamily">@font/pretendard_regular</item>
+        <item name="android:textColor">@color/text_4</item>
+        <item name="android:textColorHint">@color/text_1</item>
+        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+
+    <!--  EditText Style -->
+    <style name="BaseEditText" parent="Widget.AppCompat.EditText">
+        <item name="fontFamily">@font/pretendard_regular</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_4</item>
+        <item name="android:textColorHint">@color/text_1</item>
+        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:minHeight">48dp</item>
     </style>
 </resources>

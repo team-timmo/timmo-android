@@ -18,6 +18,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".SignUpActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity9"
+            android:exported="false" />
     </application>
 
 </manifest>
