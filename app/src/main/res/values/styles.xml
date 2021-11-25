@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--  Base text style  -->
+    <!--  Font style.  -->
     <style name="Black">
         <item name="fontFamily">@font/pretendard_black</item>
         <item name="android:includeFontPadding">false</item>
@@ -23,6 +23,22 @@
     </style>
     <style name="Thin">
         <item name="fontFamily">@font/pretendard_thin</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!--  Edit text style -->
+    <style name="EditText"
+        parent="Widget.AppCompat.EditText" >
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/pinkish_grey</item>
+        <item name="fontFamily">@font/pretendard_regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="EnterEditText"
+        parent="Widget.AppCompat.EditText" >
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_3</item>
+        <item name="fontFamily">@font/pretendard_regular</item>
         <item name="android:includeFontPadding">false</item>
     </style>
 

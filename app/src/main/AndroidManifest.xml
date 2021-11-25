@@ -4,6 +4,7 @@
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -34,6 +35,14 @@
         <activity
             android:name=".SignUpActivity9"
             android:exported="false" />
+        <activity android:name=".presentation.sign.SignInActivity"/>
+        <activity android:name=".presentation.sign.SignUpActivity1"/>
+        <activity android:name=".presentation.sign.SignUpActivity2"/>
+        <activity android:name=".presentation.sign.SignUpActivity3"/>
+        <activity android:name=".presentation.sign.SignUpActivity4"/>
+        <activity android:name=".presentation.sign.FindPassActivity1"/>
+        <activity android:name=".presentation.sign.FindPassActivity2"/>
+        <activity android:name=".presentation.sign.FindPassActivity3"/>
     </application>
 
 </manifest>
