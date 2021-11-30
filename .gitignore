@@ -244,3 +244,4 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/androidstudio
 /.idea/git_toolbox_prj.xml
 /.idea/codeStyles/
+/.idea/saveactions_settings.xml
