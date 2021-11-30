@@ -27,7 +27,7 @@
         <item>제주특별자치도</item>
     </string-array>
 
-    <string-array name="sigungu">
+    <string-array name="seoul_sigungu">
         <item>강남구</item>
         <item>강동구</item>
         <item>강북구</item>
@@ -55,7 +55,26 @@
         <item>중랑구</item>
     </string-array>
 
-    <string-array name="teamonenumber">
+    <string-array name="busan_sigungu">
+        <item>강서구</item>
+        <item>금정구</item>
+        <item>기장군</item>
+        <item>남구</item>
+        <item>동구</item>
+        <item>동래구</item>
+        <item>부산진구</item>
+        <item>북구</item>
+        <item>사상구</item>
+        <item>사하구</item>
+        <item>서구</item>
+        <item>수영구</item>
+        <item>연제구</item>
+        <item>영도구</item>
+        <item>중구</item>
+        <item>해운대구</item>
+    </string-array>
+
+    <string-array name="teamone_number">
         <item>모집하고자 하는 팀원 수</item>
         <item>1명</item>
         <item>2명</item>
@@ -67,5 +86,11 @@
         <item>8명</item>
         <item>9명</item>
         <item>10명</item>
+    </string-array>
+
+    <string-array name="timmo_field">
+        <item>디자인</item>
+        <item>기획</item>
+        <item>개발</item>
     </string-array>
 </resources>

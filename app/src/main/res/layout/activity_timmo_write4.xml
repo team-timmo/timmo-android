@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.write.TimmoWriteActivity4">
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textViewIntroductionTitle"
+        style="@style/Bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/timmo_write_introduction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <Button
+        android:id="@+id/buttonProfileSelection"
+        style="@style/SemiBold"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/black_1"
+        android:text="@string/timmo_write_profile_selection"
+        android:textColor="@color/text_3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIntroductionTitle"
+        tools:layout_editor_absoluteX="42dp" />
+
+    <TextView
+        android:id="@+id/textViewWorkingTime"
+        style="@style/SemiBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/timmo_write_working_time"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/checkBoxNoCare"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonProfileSelection" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNoCare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/timmo_write_no_care"
+        android:textColor="@color/text_3"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewWorkingTime"
+        app:layout_constraintTop_toBottomOf="@+id/buttonProfileSelection" />
+
+    <SeekBar
+        android:id="@+id/seekBarWorkingTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:progress="3"
+        android:max="6"
+        android:thumb="@drawable/selector_seekbar_thumb_timmo_write4"
+        android:progressDrawable="@drawable/bg_seekbar_timmo_write4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWorkingTime" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

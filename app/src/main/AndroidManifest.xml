@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Timmo">
         <activity
+            android:name=".presentation.write.TimmoWriteActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.write.TimmoWriteActivty2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -19,7 +25,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".SignUpActivity5"
             android:exported="false" />
@@ -35,14 +40,14 @@
         <activity
             android:name=".SignUpActivity9"
             android:exported="false" />
-        <activity android:name=".presentation.sign.SignInActivity"/>
-        <activity android:name=".presentation.sign.SignUpActivity1"/>
-        <activity android:name=".presentation.sign.SignUpActivity2"/>
-        <activity android:name=".presentation.sign.SignUpActivity3"/>
-        <activity android:name=".presentation.sign.SignUpActivity4"/>
-        <activity android:name=".presentation.sign.FindPassActivity1"/>
-        <activity android:name=".presentation.sign.FindPassActivity2"/>
-        <activity android:name=".presentation.sign.FindPassActivity3"/>
+        <activity android:name=".presentation.sign.SignInActivity" />
+        <activity android:name=".presentation.sign.SignUpActivity1" />
+        <activity android:name=".presentation.sign.SignUpActivity2" />
+        <activity android:name=".presentation.sign.SignUpActivity3" />
+        <activity android:name=".presentation.sign.SignUpActivity4" />
+        <activity android:name=".presentation.sign.FindPassActivity1" />
+        <activity android:name=".presentation.sign.FindPassActivity2" />
+        <activity android:name=".presentation.sign.FindPassActivity3" />
     </application>
 
 </manifest>

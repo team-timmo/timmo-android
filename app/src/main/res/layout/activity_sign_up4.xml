@@ -59,7 +59,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
-        android:entries="@array/sigungu"
+        android:entries="@array/seoul_sigungu"
         android:minHeight="48dp"
         android:spinnerMode="dropdown"
         android:hint="@string/sign_sigungu"

@@ -65,4 +65,18 @@
     <string name="timmo_write_field_example">예) 디자인</string>
     <string name="timmo_write_tag">상세 분류 태그</string>
     <string name="timmo_write_tag_example">예) #UI/UX디자이너</string>
+    <string name="timmo_write_introduction">팀에 대해\n소개해주세요</string>
+    <string name="timmo_write_profile_selection">나의 프로필 선택</string>
+    <string name="timmo_write_no_care">상관 없음</string>
+    <string name="timmo_write_working_time">작업 시간대</string>
+    <string name="timmo_write_morning">아침 작업형</string>
+    <string name="timmo_write_night">저녁 작업형</string>
+    <string name="timmo_write_working_method">작업 방식</string>
+    <string name="timmo_write_plan">계획형</string>
+    <string name="timmo_write_immersion">몰입형</string>
+    <string name="timmo_write_team_condition">팀 분위기</string>
+    <string name="timmo_write_introvert">내향적</string>
+    <string name="timmo_write_extrovert">외향적</string>
+    <string name="timmo_write_activation_location">팀 활동 지역</string>
+    <string name="timmo_write_recent_team_profile">현재 함께하는 팀원 프로필</string>
 </resources>
