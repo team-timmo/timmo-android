@@ -14,7 +14,6 @@ class SignUpActivity4 : AppCompatActivity() {
     var sidoUserSelected = ""
     var spinnerSigungu = R.array.seoul_sigungu
     var sigunguUserSelected = ""
-    var positionSelected = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySignUp4Binding.inflate(layoutInflater)
