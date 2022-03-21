@@ -21,6 +21,7 @@ class SignUpActivity4 : AppCompatActivity() {
 
         setUpSpinnerSido()
         setupSpinnerSidoHandler()
+        binding.buttonCompletion.isEnabled = true
 
         binding.buttonCompletion.setOnClickListener {
             val intent = Intent(this, LoginMainActivity::class.java)

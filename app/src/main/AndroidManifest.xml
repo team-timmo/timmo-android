@@ -35,11 +35,8 @@
             android:name=".SignUpActivity9"
             android:exported="false" />
         <activity android:name=".presentation.sign.SignInActivity" />
-        <activity android:name=".presentation.sign.SignUpActivity1" />
-        <activity android:name=".presentation.sign.SignUpActivity2" />
-        <activity android:name=".presentation.sign.SignUpActivity3" />
         <activity
-            android:name=".presentation.sign.SignUpActivity4"
+            android:name=".presentation.sign.SignUpActivity1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,6 +44,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".presentation.sign.SignUpActivity2" />
+        <activity android:name=".presentation.sign.SignUpActivity3" />
+        <activity android:name=".presentation.sign.SignUpActivity4" />
         <activity android:name=".presentation.sign.FindPassActivity1" />
         <activity android:name=".presentation.sign.FindPassActivity2" />
         <activity android:name=".presentation.sign.FindPassActivity3" />
