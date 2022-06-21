@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Font style  -->
+    <style name="Bold">
+        <item name="fontFamily">@font/pretendard_bold</item>
+    </style>
+    <style name="Medium">
+        <item name="fontFamily">@font/pretendard_medium</item>
+    </style>
+    <style name="Regular">
+        <item name="fontFamily">@font/pretendard_regular</item>
+    </style>
+    <style name="SemiBold">
+        <item name="fontFamily">@font/pretendard_semibold</item>
+    </style>
+
+    <!--  Topbar  -->
+    <style name="Topbar" parent="Bold">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TopbarMedium" parent="Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--  Bold  -->
+    <style name="Bold22" parent="Bold">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="Bold20" parent="Bold">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Bold18" parent="Bold">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Bold16" parent="Bold">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Bold15" parent="Bold">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="Bold14" parent="Bold">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Bold11" parent="Bold">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <!--  Medium  -->
+    <style name="Medium18" parent="Medium">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Medium16" parent="Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Medium15" parent="Medium">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="Medium14" parent="Medium">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Medium12" parent="Medium">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Medium11" parent="Medium">
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="Medium10" parent="Medium">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!--  Semi  -->
+    <style name="Semi20" parent="SemiBold">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Semi18" parent="SemiBold">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Semi16" parent="SemiBold">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Semi14" parent="SemiBold">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Semi13" parent="SemiBold">
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="Semi12" parent="SemiBold">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Semi11" parent="SemiBold">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <!--  Regular  -->
+    <style name="Regular14" parent="Regular">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Regular13" parent="Regular">
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="Regular12" parent="Regular">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Regular11" parent="Regular">
+        <item name="android:textSize">11sp</item>
+    </style>
+</resources>
