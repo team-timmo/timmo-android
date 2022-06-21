@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Timmo</string>
+
+    <!--  Sign In  -->
+    <string name="sign_in_logo">팀모 로고</string>
+    <string name="sign_in_start">시작하기</string>
+    <string name="sign_in_login">로그인</string>
+    <string name="sign_in_email">이메일</string>
+    <string name="sign_in_password">비밀번호</string>
+    <string name="sign_in_ok">확인</string>
+    <string name="sign_in_forget_password"><u>비밀번호를 잊으셨나요?</u></string>
 </resources>
