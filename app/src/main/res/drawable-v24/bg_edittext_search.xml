@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/ic_search_32dp"
+        android:gravity="center|end" />
+    <item
+        android:bottom="1dp"
+        android:left="-2dp"
+        android:right="-2dp"
+        android:top="-2dp">
+        <shape android:shape="rectangle">
+            <padding
+                android:left="8dp"
+                android:right="8dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#5450FF" />
+        </shape>
+    </item>
+</layer-list>
