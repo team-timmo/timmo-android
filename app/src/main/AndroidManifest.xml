@@ -20,6 +20,21 @@
         <activity
             android:name=".presentation.signin.SignInActivity"
             android:exported="false" />
+        <activity
+            android:name=".presentation.signup.SignUpActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.signup.SignUpActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.signup.SignUpActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.signup.SignUpActivity8"
+            android:exported="true" />
+        <activity
+            android:name=".presentation.signup.SignUpActivity9"
+            android:exported="false" />
     </application>
 
 </manifest>

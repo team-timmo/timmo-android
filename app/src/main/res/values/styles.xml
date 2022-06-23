@@ -8,16 +8,48 @@
         <item name="android:textColor">@color/white</item>
     </style>
 
+    <style name="TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="fontFamily">@font/pretendard_regular</item>
+        <item name="android:textColor">@color/text_3</item>
+    </style>
+
     <!--  EditText style  -->
     <style name="BaseEditText" parent="Widget.AppCompat.EditText">
-        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:background">@drawable/bg_edittext</item>
+        <item name="android:minHeight">48dp</item>
         <item name="fontFamily">@font/pretendard_regular</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/text_4</item>
         <item name="android:textColorHint">@color/text_1</item>
     </style>
 
+    <style name="SearchEditText" parent="BaseEditText">
+        <item name="android:background">@drawable/bg_edittext_search</item>
+    </style>
+
+    <!--  Spinner style  -->
+    <style name="BaseSpinner" parent="Widget.AppCompat.Spinner.DropDown">
+        <item name="android:background">@drawable/bg_spinner</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
     <!--  Text style  -->
+    <style name="Bold20.Text4">
+        <item name="android:textColor">@color/text_4</item>
+    </style>
+
+    <style name="Regular14.Text2">
+        <item name="android:textColor">@color/text_2</item>
+    </style>
+
+    <style name="Regular14.Text4">
+        <item name="android:textColor">@color/text_4</item>
+    </style>
+
+    <style name="Regular14.Purple3">
+        <item name="android:textColor">@color/purple_3</item>
+    </style>
+
     <style name="Regular12.Text3">
         <item name="android:textColor">@color/text_3</item>
     </style>

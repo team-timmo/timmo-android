@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.signup.SignUpActivity9">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/sign_up_welcome_description"
+        android:src="@drawable/logo_welcome"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSignUp9Title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/textViewSignUp9Title"
+        style="@style/Bold20.Text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/sign_up_welcome_description"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSignUp9SubTitle"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textViewSignUp9SubTitle"
+        style="@style/Regular14.Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/sign_up_position_registration_description"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSignUp9PositionRegistration"
+        app:layout_constraintEnd_toEndOf="@+id/textViewSignUp9Title"
+        app:layout_constraintStart_toStartOf="@+id/textViewSignUp9Title"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSignUp9Title"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonSignUp9PositionRegistration"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/sign_up_position_registration"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSignUp9Preview"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSignUp9Preview"
+        app:layout_constraintStart_toStartOf="@+id/buttonSignUp9Preview" />
+
+    <Button
+        android:id="@+id/buttonSignUp9Preview"
+        style="@style/TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/sign_up_preview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
