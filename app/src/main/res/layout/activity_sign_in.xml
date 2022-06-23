@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextEmail"
+        android:id="@+id/editTextSignInEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -25,45 +25,44 @@
         android:hint="@string/sign_in_email"
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
-        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:id="@+id/editTextPassword"
+        android:id="@+id/editTextSignInPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:hint="@string/sign_in_password"
         android:importantForAutofill="no"
         android:inputType="textPassword"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextEmail"
-        app:layout_constraintStart_toStartOf="@+id/editTextEmail"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
+        app:layout_constraintEnd_toEndOf="@+id/editTextSignInEmail"
+        app:layout_constraintStart_toStartOf="@+id/editTextSignInEmail"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSignInEmail"
         tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/buttonOk"
+        android:id="@+id/buttonSignInLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:enabled="false"
-        android:text="@string/sign_in_ok"
-        app:layout_constraintEnd_toEndOf="@+id/editTextPassword"
-        app:layout_constraintStart_toStartOf="@+id/editTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
+        android:text="@string/sign_in_login"
+        app:layout_constraintEnd_toEndOf="@+id/editTextSignInPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextSignInPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSignInPassword" />
 
     <TextView
-        android:id="@+id/textViewForgetPassword"
+        android:id="@+id/textViewSignInForgetPassword"
         style="@style/Regular12.Text3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
         android:text="@string/sign_in_forget_password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonOk" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignInLogin" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buttonLogin.setOnClickListener {
+        binding.buttonMainLogin.setOnClickListener {
             startActivity(Intent(this, SignInActivity::class.java))
         }
     }

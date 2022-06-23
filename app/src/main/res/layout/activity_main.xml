@@ -11,25 +11,26 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="104dp"
         android:contentDescription="@string/sign_in_logo"
         android:src="@drawable/logo_main"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMainStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
 
     <Button
-        android:id="@+id/buttonStart"
+        android:id="@+id/buttonMainStart"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="@string/sign_in_start"
-        app:layout_constraintBottom_toTopOf="@+id/buttonLogin"
-        app:layout_constraintEnd_toEndOf="@+id/buttonLogin"
-        app:layout_constraintStart_toStartOf="@+id/buttonLogin" />
+        app:layout_constraintBottom_toTopOf="@+id/buttonMainLogin"
+        app:layout_constraintEnd_toEndOf="@+id/buttonMainLogin"
+        app:layout_constraintStart_toStartOf="@+id/buttonMainLogin" />
 
     <Button
-        android:id="@+id/buttonLogin"
+        android:id="@+id/buttonMainLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
