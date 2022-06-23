@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Timmo</string>
+    <string name="dash">-</string>
 
     <!--  Sign In  -->
     <string name="sign_in_logo">팀모 로고</string>
@@ -7,6 +8,24 @@
     <string name="sign_in_login">로그인</string>
     <string name="sign_in_email">이메일</string>
     <string name="sign_in_password">비밀번호</string>
-    <string name="sign_in_ok">확인</string>
     <string name="sign_in_forget_password"><u>비밀번호를 잊으셨나요?</u></string>
+
+    <!--  Sign Up  -->
+    <string name="sign_up_next">다음</string>
+    <string name="sign_up_ok">완료</string>
+    <string name="sign_up_university_description">최근에 다닌 학교는\n어디인가요?</string>
+    <string name="sign_up_authentication_description">학생 인증을 위한 단계에요, 학교는 공개되지 않아요</string>
+    <string name="sign_up_university_hint">예) 한국대학교</string>
+    <string name="sign_up_university">대학교</string>
+    <string name="sign_up_major_description">전공을 알려주세요</string>
+    <string name="sign_up_major_hint">예) 컴퓨터공학과</string>
+    <string name="sign_up_status_description">재학 상태를 알려주세요</string>
+    <string name="sign_up_authentication_last_description">학생 인증을 위한 마지막 단계에요, 학교는 공개되지 않아요</string>
+    <string name="sign_up_entrance_year_hint">입학년도</string>
+    <string name="sign_up_graduation_year_hint">졸업년도</string>
+    <string name="sign_up_status">재학 상태</string>
+    <string name="sign_up_welcome_description">팀모에 오신 걸 환영해요!</string>
+    <string name="sign_up_position_registration_description">포지션을 등록해야 팀모에서의\n매칭 활동이 가능해요</string>
+    <string name="sign_up_position_registration">포지션 등록하기</string>
+    <string name="sign_up_preview">둘러보기</string>
 </resources>
