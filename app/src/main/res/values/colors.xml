@@ -7,4 +7,35 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--  Timmo color  -->
+    <color name="text_1">#cecece</color>
+    <color name="text_2">#9b9b9b</color>
+    <color name="text_3">#757575</color>
+    <color name="text_4">#2d2d2d</color>
+
+    <color name="line_1">#ebebeb</color>
+    <color name="line_2">#d9d9d9</color>
+    <color name="line_3">#323232</color>
+
+    <color name="black_1">#f6f6f6</color>
+    <color name="black_2">#e8e8e8</color>
+    <color name="black_3">#c4c4c4</color>
+    <color name="black_4">#222222</color>
+    <color name="black_5">#585858</color>
+
+    <color name="purple_1">#ebebff</color>
+    <color name="purple_2">#a9a7ff</color>
+    <color name="purple_3">#5450ff</color>
+
+    <color name="red_1">#ee0000</color>
+
+    <color name="yellow_1">#fff75c</color>
+
+    <color name="icon_color_1">#292929</color>
+    <color name="icon_color_2">#bebebe</color>
+
+    <color name="toast">#323232</color>
+
+    <color name="popup_bg">#662f2f2f</color>
 </resources>
